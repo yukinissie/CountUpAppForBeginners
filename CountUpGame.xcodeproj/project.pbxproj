@@ -16,10 +16,25 @@
 		C24ABA1724E550DC007058BD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24ABA1624E550DC007058BD /* ResultViewController.swift */; };
 		C24ABA1924E56B7A007058BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24ABA1824E56B7A007058BD /* MenuViewController.swift */; };
 		C272CF0024E94D61005DF793 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272CEFF24E94D61005DF793 /* Question.swift */; };
+		C272CF0224EA11DB005DF793 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C272CF0124EA11DB005DF793 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		C232F4D324EA134C00C00B20 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = file.rcproject;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# rctool\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
-		03A3BBC124D95E36002FAFA9 /* CountUpAppForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountUpAppForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A3BBC124D95E36002FAFA9 /* CountUpGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountUpGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A3BBC424D95E36002FAFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A3BBC624D95E36002FAFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03A3BBC824D95E36002FAFA9 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +45,7 @@
 		C24ABA1624E550DC007058BD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		C24ABA1824E56B7A007058BD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C272CEFF24E94D61005DF793 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C272CF0124EA11DB005DF793 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +62,8 @@
 		03A3BBB824D95E35002FAFA9 = {
 			isa = PBXGroup;
 			children = (
-				03A3BBC324D95E36002FAFA9 /* CountUpAppForBeginners */,
+				C272CF0124EA11DB005DF793 /* Default-568h@2x.png */,
+				03A3BBC324D95E36002FAFA9 /* CountUpGame */,
 				03A3BBC224D95E36002FAFA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +71,12 @@
 		03A3BBC224D95E36002FAFA9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03A3BBC124D95E36002FAFA9 /* CountUpAppForBeginners.app */,
+				03A3BBC124D95E36002FAFA9 /* CountUpGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03A3BBC324D95E36002FAFA9 /* CountUpAppForBeginners */ = {
+		03A3BBC324D95E36002FAFA9 /* CountUpGame */ = {
 			isa = PBXGroup;
 			children = (
 				03A3BBC424D95E36002FAFA9 /* AppDelegate.swift */,
@@ -73,27 +90,28 @@
 				03A3BBCF24D95E3F002FAFA9 /* LaunchScreen.storyboard */,
 				03A3BBD224D95E3F002FAFA9 /* Info.plist */,
 			);
-			path = CountUpAppForBeginners;
+			path = CountUpGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03A3BBC024D95E36002FAFA9 /* CountUpAppForBeginners */ = {
+		03A3BBC024D95E36002FAFA9 /* CountUpGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03A3BBD524D95E3F002FAFA9 /* Build configuration list for PBXNativeTarget "CountUpAppForBeginners" */;
+			buildConfigurationList = 03A3BBD524D95E3F002FAFA9 /* Build configuration list for PBXNativeTarget "CountUpGame" */;
 			buildPhases = (
 				03A3BBBD24D95E36002FAFA9 /* Sources */,
 				03A3BBBE24D95E36002FAFA9 /* Frameworks */,
 				03A3BBBF24D95E36002FAFA9 /* Resources */,
 			);
 			buildRules = (
+				C232F4D324EA134C00C00B20 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
-			name = CountUpAppForBeginners;
+			name = CountUpGame;
 			productName = CountUpAppForBeginners;
-			productReference = 03A3BBC124D95E36002FAFA9 /* CountUpAppForBeginners.app */;
+			productReference = 03A3BBC124D95E36002FAFA9 /* CountUpGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,14 +122,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = TanakaHirokazu;
+				ORGANIZATIONNAME = yukinissie.com;
 				TargetAttributes = {
 					03A3BBC024D95E36002FAFA9 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
-			buildConfigurationList = 03A3BBBC24D95E35002FAFA9 /* Build configuration list for PBXProject "CountUpAppForBeginners" */;
+			buildConfigurationList = 03A3BBBC24D95E35002FAFA9 /* Build configuration list for PBXProject "CountUpGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03A3BBC024D95E36002FAFA9 /* CountUpAppForBeginners */,
+				03A3BBC024D95E36002FAFA9 /* CountUpGame */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A3BBD124D95E3F002FAFA9 /* LaunchScreen.storyboard in Resources */,
+				C272CF0224EA11DB005DF793 /* Default-568h@2x.png in Resources */,
 				03A3BBCE24D95E3F002FAFA9 /* Assets.xcassets in Resources */,
 				03A3BBCC24D95E36002FAFA9 /* Main.storyboard in Resources */,
 			);
@@ -298,13 +317,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YSLGJ2WGD;
-				INFOPLIST_FILE = CountUpAppForBeginners/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CountUpGame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanakahirokazu.CountUpAppForBeginners;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukinissie.CountUpGame;
+				PRODUCT_NAME = CountUpGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,13 +335,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YSLGJ2WGD;
-				INFOPLIST_FILE = CountUpAppForBeginners/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CountUpGame/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanakahirokazu.CountUpAppForBeginners;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukinissie.CountUpGame;
+				PRODUCT_NAME = CountUpGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03A3BBBC24D95E35002FAFA9 /* Build configuration list for PBXProject "CountUpAppForBeginners" */ = {
+		03A3BBBC24D95E35002FAFA9 /* Build configuration list for PBXProject "CountUpGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03A3BBD324D95E3F002FAFA9 /* Debug */,
@@ -340,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03A3BBD524D95E3F002FAFA9 /* Build configuration list for PBXNativeTarget "CountUpAppForBeginners" */ = {
+		03A3BBD524D95E3F002FAFA9 /* Build configuration list for PBXNativeTarget "CountUpGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03A3BBD624D95E3F002FAFA9 /* Debug */,
