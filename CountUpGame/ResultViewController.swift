@@ -14,7 +14,6 @@ class ResultViewController: UIViewController {
     
     var passdata = 0
 
-
     @IBOutlet weak var resultScoreLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,18 +27,5 @@ class ResultViewController: UIViewController {
             highScore = passdata
         }
         highScoreLabel.text = String(highScore)
-    }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-    @IBAction func retry(_ sender: Any) {
-        performSegue(withIdentifier: "retry", sender: nil)
     }
 }

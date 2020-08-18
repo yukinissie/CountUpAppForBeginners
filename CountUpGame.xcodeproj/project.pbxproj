@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		03A3BBC524D95E36002FAFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BBC424D95E36002FAFA9 /* AppDelegate.swift */; };
 		03A3BBC724D95E36002FAFA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BBC624D95E36002FAFA9 /* SceneDelegate.swift */; };
-		03A3BBC924D95E36002FAFA9 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BBC824D95E36002FAFA9 /* PlayViewController.swift */; };
+		03A3BBC924D95E36002FAFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BBC824D95E36002FAFA9 /* ViewController.swift */; };
 		03A3BBCC24D95E36002FAFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A3BBCA24D95E36002FAFA9 /* Main.storyboard */; };
 		03A3BBCE24D95E3F002FAFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A3BBCD24D95E3F002FAFA9 /* Assets.xcassets */; };
 		03A3BBD124D95E3F002FAFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A3BBCF24D95E3F002FAFA9 /* LaunchScreen.storyboard */; };
@@ -37,7 +37,7 @@
 		03A3BBC124D95E36002FAFA9 /* CountUpGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountUpGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A3BBC424D95E36002FAFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A3BBC624D95E36002FAFA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03A3BBC824D95E36002FAFA9 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		03A3BBC824D95E36002FAFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03A3BBCB24D95E36002FAFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03A3BBCD24D95E3F002FAFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A3BBD024D95E3F002FAFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			children = (
 				03A3BBC424D95E36002FAFA9 /* AppDelegate.swift */,
 				03A3BBC624D95E36002FAFA9 /* SceneDelegate.swift */,
-				03A3BBC824D95E36002FAFA9 /* PlayViewController.swift */,
+				03A3BBC824D95E36002FAFA9 /* ViewController.swift */,
 				03A3BBCA24D95E36002FAFA9 /* Main.storyboard */,
 				C272CEFF24E94D61005DF793 /* Question.swift */,
 				C24ABA1824E56B7A007058BD /* MenuViewController.swift */,
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A3BBC924D95E36002FAFA9 /* PlayViewController.swift in Sources */,
+				03A3BBC924D95E36002FAFA9 /* ViewController.swift in Sources */,
 				C24ABA1924E56B7A007058BD /* MenuViewController.swift in Sources */,
 				03A3BBC524D95E36002FAFA9 /* AppDelegate.swift in Sources */,
 				C272CF0024E94D61005DF793 /* Question.swift in Sources */,
