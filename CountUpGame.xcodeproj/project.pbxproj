@@ -15,7 +15,6 @@
 		03A3BBD124D95E3F002FAFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A3BBCF24D95E3F002FAFA9 /* LaunchScreen.storyboard */; };
 		C24ABA1724E550DC007058BD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24ABA1624E550DC007058BD /* ResultViewController.swift */; };
 		C24ABA1924E56B7A007058BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24ABA1824E56B7A007058BD /* MenuViewController.swift */; };
-		C272CF0024E94D61005DF793 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C272CEFF24E94D61005DF793 /* Question.swift */; };
 		C272CF0224EA11DB005DF793 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C272CF0124EA11DB005DF793 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		03A3BBD224D95E3F002FAFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C24ABA1624E550DC007058BD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		C24ABA1824E56B7A007058BD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		C272CEFF24E94D61005DF793 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C272CF0124EA11DB005DF793 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +81,6 @@
 				03A3BBC624D95E36002FAFA9 /* SceneDelegate.swift */,
 				03A3BBC824D95E36002FAFA9 /* ViewController.swift */,
 				03A3BBCA24D95E36002FAFA9 /* Main.storyboard */,
-				C272CEFF24E94D61005DF793 /* Question.swift */,
 				C24ABA1824E56B7A007058BD /* MenuViewController.swift */,
 				C24ABA1624E550DC007058BD /* ResultViewController.swift */,
 				03A3BBCD24D95E3F002FAFA9 /* Assets.xcassets */,
@@ -169,7 +166,6 @@
 				03A3BBC924D95E36002FAFA9 /* ViewController.swift in Sources */,
 				C24ABA1924E56B7A007058BD /* MenuViewController.swift in Sources */,
 				03A3BBC524D95E36002FAFA9 /* AppDelegate.swift in Sources */,
-				C272CF0024E94D61005DF793 /* Question.swift in Sources */,
 				03A3BBC724D95E36002FAFA9 /* SceneDelegate.swift in Sources */,
 				C24ABA1724E550DC007058BD /* ResultViewController.swift in Sources */,
 			);
