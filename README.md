@@ -18,7 +18,7 @@
 制限時間を用意したのでどれだけ速くターゲットと数字を合わせられるかがスコアゲットの鍵になります。
 
 ## プレイ映像
-<img src="./playMovie.gif">
+<img src="./playMovie.gif" width="375">
 
 ## 技術的概要
 - Xcode Version 11.6 (11E708)
