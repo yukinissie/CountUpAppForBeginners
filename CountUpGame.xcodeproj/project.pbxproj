@@ -13,6 +13,7 @@
 		03A3BBCC24D95E36002FAFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A3BBCA24D95E36002FAFA9 /* Main.storyboard */; };
 		03A3BBCE24D95E3F002FAFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A3BBCD24D95E3F002FAFA9 /* Assets.xcassets */; };
 		03A3BBD124D95E3F002FAFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A3BBCF24D95E3F002FAFA9 /* LaunchScreen.storyboard */; };
+		C2440E7E24ECAEAA00A3162E /* playMovie.gif in Resources */ = {isa = PBXBuildFile; fileRef = C2440E7D24ECAEAA00A3162E /* playMovie.gif */; };
 		C24ABA1724E550DC007058BD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24ABA1624E550DC007058BD /* ResultViewController.swift */; };
 		C24ABA1924E56B7A007058BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24ABA1824E56B7A007058BD /* MenuViewController.swift */; };
 		C272CF0224EA11DB005DF793 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C272CF0124EA11DB005DF793 /* Default-568h@2x.png */; };
@@ -41,6 +42,7 @@
 		03A3BBCD24D95E3F002FAFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A3BBD024D95E3F002FAFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03A3BBD224D95E3F002FAFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2440E7D24ECAEAA00A3162E /* playMovie.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playMovie.gif; sourceTree = "<group>"; };
 		C24ABA1624E550DC007058BD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		C24ABA1824E56B7A007058BD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C272CF0124EA11DB005DF793 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		03A3BBB824D95E35002FAFA9 = {
 			isa = PBXGroup;
 			children = (
+				C2440E7D24ECAEAA00A3162E /* playMovie.gif */,
 				C272CF0124EA11DB005DF793 /* Default-568h@2x.png */,
 				03A3BBC324D95E36002FAFA9 /* CountUpGame */,
 				03A3BBC224D95E36002FAFA9 /* Products */,
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2440E7E24ECAEAA00A3162E /* playMovie.gif in Resources */,
 				03A3BBD124D95E3F002FAFA9 /* LaunchScreen.storyboard in Resources */,
 				C272CF0224EA11DB005DF793 /* Default-568h@2x.png in Resources */,
 				03A3BBCE24D95E3F002FAFA9 /* Assets.xcassets in Resources */,
