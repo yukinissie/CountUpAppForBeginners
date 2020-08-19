@@ -18,7 +18,7 @@
 制限時間を用意したのでどれだけ速くターゲットと数字を合わせられるかがスコアゲットの鍵になります。
 
 ## プレイ映像
-<a href="https://gyazo.com/0ae0cc84f0db632c763f1cb9db3ff67d"><img src="https://i.gyazo.com/0ae0cc84f0db632c763f1cb9db3ff67d.gif" alt="Image from Gyazo" width="375"/></a>
+<img src="./playMovie.gif">
 
 ## 技術的概要
 - Xcode Version 11.6 (11E708)
